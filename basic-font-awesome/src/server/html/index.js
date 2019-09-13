@@ -1,4 +1,5 @@
 import React from "react";
+import { dom } from "@fortawesome/fontawesome-svg-core";
 
 /**
  * Component to render the essential HTML document information, such as scripts,
@@ -13,6 +14,7 @@ const HTML = ({ content, initialData }) => (
     <head>
       <title>Basic SSR w/ Font Awesome</title>
       <script src="/static/main.js" defer></script>
+      <style>{dom.css()}</style>
     </head>
     <body>
       <div id="root" dangerouslySetInnerHTML={{ __html: content }} />
