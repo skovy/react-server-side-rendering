@@ -11,7 +11,7 @@ import React from "react";
 const HTML = ({ content, initialData }) => (
   <html>
     <head>
-      <title>React SSR</title>
+      <title>Basic SSR w/ Font Awesome</title>
       <script src="/static/main.js" defer></script>
     </head>
     <body>
