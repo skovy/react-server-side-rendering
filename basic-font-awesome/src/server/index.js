@@ -2,12 +2,9 @@ import React from "react";
 import express from "express";
 import path from "path";
 import { renderToString, renderToStaticMarkup } from "react-dom/server";
-import { config } from '@fortawesome/fontawesome-svg-core'
 
 import Home from "../shared/home";
 import HTML from "./html";
-
-config.autoAddCss = false;
 
 const app = express();
 

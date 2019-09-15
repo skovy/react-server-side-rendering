@@ -1,7 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { config } from '@fortawesome/fontawesome-svg-core'
 
 import Home from "../shared/home";
+
+config.autoAddCss = false;
 
 const root = document.getElementById("root");
 

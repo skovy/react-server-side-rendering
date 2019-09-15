@@ -14,7 +14,7 @@ const HTML = ({ content, initialData }) => (
     <head>
       <title>Basic SSR w/ Font Awesome</title>
       <script src="/static/main.js" defer></script>
-      <style>{dom.css()}</style>
+      <style type="text/css">{dom.css()}</style>
     </head>
     <body>
       <div id="root" dangerouslySetInnerHTML={{ __html: content }} />
