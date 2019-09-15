@@ -17,6 +17,7 @@ The basics to render a React app with server side rendering.
 The same as the basic example, but including Font Awesome. There is a slight
 different with Font Awesome to avoid a "flicker" or "flash" before the client
 can insert the necessary CSS.
+[Read more about Server Side Rendering icons with Font Awesome](https://skovy.dev/server-side-rendering-font-awesome/).
 
 - font awesome svg core
 - font awesome free solid icons
